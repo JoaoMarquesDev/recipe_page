@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Young+Serif&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: "League Spartan", sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    margin-top: 20px;
+    background-color: white;
+    width: 550px;
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+img { 
+    height: auto;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+h1 , h2 {
+    font-family: "Young Serif", serif;
+}
+
+p , li{
+    color: hsl(30, 10%, 34%);
+}
+
+h1 { 
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation {
+    background-color: hsl(31, 100%, 95%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.preparation ul { 
+    margin-left: 30px;
+}
+
+.preparation ul li { 
+    padding: 5px;
+}
+
+.ingredients ul li {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.instructions ol li {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.nutrition {
+  background: #fffaf5; /* cor de fundo suave parecida */   
+}
+
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition th,
+.nutrition td {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 1em;
+}
+
+.nutrition th {
+    font-weight: normal;
+    
+   color: hsl(30, 10%, 34%);
+  /* color: #5a2b10; */
+}
+
+.nutrition td {
+  text-align: right;
+  font-weight: bold;
+  color: #6d3b1f;
+}
+
+
